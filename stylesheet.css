@@ -1,0 +1,149 @@
+
+ body{
+
+    margin: 0;
+    text-align: center;
+    color: goldenrod;
+    font-family: "open sans"
+
+}
+.one{
+    background:  linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%) ;
+    padding-top: 100px;
+    position: relative;
+   
+}
+h1,h2{       
+    width: auto;       
+    font-family: "Sacramento", arial;
+}
+h1{
+    font-size: 3.3rem;
+    margin: 50px auto 0px auto;   /* for centering elements with width we specify top & bottom margin 0 and left & right margin auto */                  
+    color: #361500;
+}
+h2{
+    margin-bottom: 50px;
+    font-size: 2rem;
+    color: #614124;
+    font-weight: bolder;
+}
+p{ font-size: 1.5rem;}
+.skill-text{
+    line-height: 2;
+    padding: auto 20% auto 20%;
+     margin-bottom: 80px;
+}
+.tcloud{
+    position: absolute;
+     left: 350px;
+     top: 70px;
+}
+.bcloud{
+    position: absolute;
+     right:500px; 
+     top:auto;
+}
+.dev{
+    font-family: "open sans";
+    text-decoration: underline #614124; 
+}
+.two{
+    background: #15133C;
+    padding-bottom: 5s0px;
+
+}
+.profile-pic{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    height:190px;
+    width: 150px;
+}
+.three{
+    padding: 50px 0;
+    background: #D7A86E;
+    color: brown;
+}
+.skill-row{
+    width: 50%;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    
+}
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 25%;
+}
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-left: 30px
+}
+hr{
+    width: 5%;
+    border: 5px dotted #D7A86E;
+    border-bottom: none;
+    margin: 100px auto 100px auto;
+}
+.btn {
+    background: #4887b0;
+    background-image: -webkit-linear-gradient(top, #4887b0, #182366);
+    background-image: -moz-linear-gradient(top, #4887b0, #182366);
+    background-image: -ms-linear-gradient(top, #4887b0, #182366);
+    background-image: -o-linear-gradient(top, #4887b0, #182366);
+    background-image: linear-gradient(to bottom, #4887b0, #182366);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: lightseagreen;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #8dc8f0;
+    background-image: -webkit-linear-gradient(top, #8dc8f0, #cfcf5d);
+    background-image: -moz-linear-gradient(top, #8dc8f0, #cfcf5d);
+    background-image: -ms-linear-gradient(top, #8dc8f0, #cfcf5d);
+    background-image: -o-linear-gradient(top, #8dc8f0, #cfcf5d);
+    background-image: linear-gradient(to bottom, #8dc8f0, #cfcf5d);
+    
+  }
+  .contact{
+      margin-bottom: 50px;
+  }
+  a{
+
+    text-decoration: none;  
+    margin: auto 1rem;
+  }
+  a:hover{
+      color: brown;
+  }
+.copyright{
+    font-weight: bolder;
+    color:#15133C;
+}
+.aboutnj{
+    line-height: 2;
+    padding-left: 20%;
+    padding-right: 20%;
+     margin-bottom: 80px; 
+}
+#works{
+    padding: auto;
+    background: #15133C;
+}
+.testi-1{
+      width:20%;
+    
+    margin: 20px;
+}
+.testi-text{
+    padding: auto 20%;
+}
